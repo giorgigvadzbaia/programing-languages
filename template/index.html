@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+{% for lang in data %}
+<h2>{{lang.name}}</h2>
+<h2>{{lang.descpription}}</h2>
+<h2>lang.</h2>
+<a href="{{ lang.link }}"></a>
+{% enfor %}
+</body>
+</html>
